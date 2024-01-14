@@ -7,22 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Dominio;
-using Negocio;
 
 namespace presentacion
 {
-    public partial class FrmListaPrincipal : Form
+    public partial class FrmAltaArticulo : Form
     {
-        public FrmListaPrincipal()
+        public FrmAltaArticulo()
         {
             InitializeComponent();
         }
-
-        private void FrmListaPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-        
     }
 }
